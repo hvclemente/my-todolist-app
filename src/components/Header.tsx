@@ -26,6 +26,8 @@ const StyledButtonTheme: React.ComponentType<any> = styled.button`
 const stylingBox: Record<string, string> = {
   display: 'flex',
   justifyContent: 'space-between',
+  padding: '1rem 6rem',
+  marginBottom: '20px',
 };
 
 export default function Header() {

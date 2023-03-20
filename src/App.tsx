@@ -1,15 +1,14 @@
 import './App.css';
 import Header from './components/Header';
 import InputText from './components/InputText';
+import TaskItem from './components/TaskItem';
 
 function App() {
-  return (
+    return (
     <>
       <Header />
-      <InputText
-        inputValue='Create a new todo for today’s list...'
-        onInputChange={() => {}}
-      />
+      <InputText />
+      <TaskItem />
     </>
   );
 }
